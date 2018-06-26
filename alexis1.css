@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+
+
+.container{
+  width: 340px;
+  height: 110px;
+  position: relative; 
+  margin-top: 10px;
+}
+
+#gif1{ 
+  background-image: url(https://78.media.tumblr.com/f2451f304befe28550dc71fa665e545e/tumblr_inline_oi1mgb9hyi1t032dq_100.gif);
+  width: 100px; 
+  height: 100px;
+ -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ background-size: cover;
+ background-position: center;
+ position: absolute;
+ top: 3px;
+ left: 3px;
+}
+#borda1{
+  background-color: black;
+    width: 106px;
+  height: 106px;
+ -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ position: absolute;
+ left: 4px;
+ top: 4px;
+}
+#borda2{
+  background-color:#090909;
+  width: 114px; 
+  height: 114px; 
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ position: absolute;
+ z-index: 2;
+}
+
+#frase1{
+  width: 280px; 
+  font-family: 'Raleway';
+  color: #252516;
+  font-size: 10px; 
+  height: 15px; 
+  background-color: #090909;
+  position: absolute;
+  z-index: 1;
+  left: 56px;
+  top: 90px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -0.7px;
+  padding-top: 2px;
+  font-weight: bolder;
+  border-bottom: 1px dotted #333300;
+}
+#alexis1{
+  font-family: 'Calligraffitti';
+  color: #090909;
+  width: 260px;
+  position: absolute;
+  font-size: 55px;
+  text-transform: lowercase;
+  left: 85px;
+  height: 75px;
+  top: 30px;
+  z-index: 3;
+  text-shadow: -1px 2px #333300;
+  
+}
