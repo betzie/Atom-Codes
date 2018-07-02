@@ -1,28 +1,28 @@
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes nonen {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes nonen {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-@keyframes AnimationName {
+@keyframes nonen {
     0%{background-position:50% 0%}
     50%{background-position:51% 100%}
     100%{background-position:50% 0%}
 }
-.ct{
+.ct1{
   width: 750px;
   height: auto;
   position: relative;
   box-sizing: border-box;
   background: linear-gradient(0deg, #246655, #6fa194, #97cec0, #6fe18d, #46aa60, #197431);
   background-size: 1200% 1200%;
-  -webkit-animation: AnimationName 47s ease infinite;
-  -moz-animation: AnimationName 47s ease infinite;
-  animation: AnimationName 47s ease infinite;
+  -webkit-animation: nonen 47s ease infinite;
+  -moz-animation: nonen 47s ease infinite;
+  animation: nonen 47s ease infinite;
   padding: 1px;
   }
 .ct2{
