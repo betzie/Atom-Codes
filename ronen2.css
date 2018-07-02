@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@-webkit-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+.ct{
+  width: 120px;
+  height: 120px;
+  border: 0px solid white;
+  position: relative;
+  box-sizing: border-box;
+
+}
+#gf1{
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-image: url(https://78.media.tumblr.com/a4858bb6f1016a8eb647a761c55b4df6/tumblr_inline_ozjowhbzWi1s9j3oa_500.gif);
+  background-size: cover;
+    background-position: center;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+#gifb1{
+  background-color:black;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+#gifb2{
+  background: linear-gradient(0deg, #246655, #6fa194, #97cec0, #6fe18d, #46aa60, #197431);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 47s ease infinite;
+  -moz-animation: AnimationName 47s ease infinite;
+  animation: AnimationName 47s ease infinite;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 80px;
+    height: 80px;
+    z-index: 1;
+    position: absolute;
+  left: 0px;
+  top: 0px;
+}
+#gifb2-1{
+  background: linear-gradient(0deg, #246655, #6fa194, #97cec0, #6fe18d, #46aa60, #197431);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 47s ease infinite;
+  -moz-animation: AnimationName 47s ease infinite;
+  animation: AnimationName 47s ease infinite;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 80px;
+    height: 80px;
+    z-index: 1;
+    position: absolute;
+  left: 42px;
+  top: -42px;
+}
+#gifb1-1{
+  background-color:black;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+#gf1-1{
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-image: url(https://78.media.tumblr.com/add9fe4aafda3f4581adb4ca2d6b349c/tumblr_inline_ozjov0NFNi1s9j3oa_500.gif);
+  background-size: cover;
+    background-position: center;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#gifb2-2{
+  background: linear-gradient(0deg, #246655, #6fa194, #97cec0, #6fe18d, #46aa60, #197431);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 47s ease infinite;
+  -moz-animation: AnimationName 47s ease infinite;
+  animation: AnimationName 47s ease infinite;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 80px;
+    height: 80px;
+    z-index: 1;
+    position: absolute;
+    left: -42px;
+    top: -42px;
+}
+#gifb1-2{
+  background-color:black;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+width: 72px;
+    height: 72px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+}
+
+#gf1-2{
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  background-image: url(https://78.media.tumblr.com/bddf6e4a51c6a0ddba3d8106ff0f0376/tumblr_inline_ozjowasg3W1s9j3oa_500.gif);
+  background-size: cover;
+    background-position: center;
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+#nm1{
+  background: linear-gradient(0deg, #246655, #6fa194, #97cec0, #6fe18d, #46aa60, #197431);
+background-size: 1200% 1200%;
+-webkit-animation: AnimationName 47s ease infinite;
+-moz-animation: AnimationName 47s ease infinite;
+animation: AnimationName 47s ease infinite;
+background-clip: text;
+-webkit-background-clip: text;
+font-family: 'Anton', sans-serif;
+color: transparent;
+z-index: 2;
+position: absolute;
+text-transform: uppercase;
+width: 110px;
+height: 35px;
+top: -52px;
+left: -16px;
+line-height: 100%;
+font-size: 20px;
+text-shadow: 2px 1px rgb(0, 0, 0);
+padding-top: 10px;
+  
+    
+}
