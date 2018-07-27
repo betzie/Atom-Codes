@@ -1,0 +1,72 @@
+.melodrama {
+  width: 400px; margin: auto;
+  background: #000; overflow: hidden;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; letter-spacing: 0;
+ outline: 1px solid #090909; padding: 5px; 
+ border: 10px solid black; 
+ outline-offset: -16px;
+}
+
+.melodrama .center {
+  height: 250px; width: 500px; transition: .6s; overflow: hidden;
+  position: relative; z-index: 400; margin: -250px 0 0 220px;
+}
+
+.melodrama .pic {
+  width: 200px; height: 120px; background-size: cover!important;
+  transition: .6s;border-right: 7px solid white;
+  filter: contrast(200%) brightness(20%) grayscale(100%);
+  
+
+}
+
+.melodrama .box {
+  width: 130px; height: 200px; background-size: cover!important;
+  float: left;
+  margin-right: 25px;
+
+}
+
+.melodrama h1 {
+  font: 50px/50px playfair display; color: #f8f8f8; margin: 0; text-shadow: 1px 1px #000;
+  text-align: center; margin: 160px auto 0 auto; text-transform: uppercase;
+}
+
+.melodrama h2 {
+  font: italic 7px/12px playfair display; color: #eee; margin: 0;
+  text-align: center; margin: 0px auto 0 auto; text-transform: uppercase;
+  letter-spacing: 7px; width: 165px; text-align: center; 
+}
+
+
+.melodrama:hover .center {
+  margin-left: 20px; width: 400px; 
+}
+.melodrama .scroll {
+  color: #eee;
+margin: 145px 0px 0px 46px;
+font: 10px/15px hind;
+height: 90px;
+width: 160px;
+overflow: auto;
+padding-right: 10px;
+opacity: 0;
+transition: .3s;
+}
+
+.melodrama .scroll::-webkit-scrollbar {
+  width: 1px; background: #000;
+}
+
+.melodrama .scroll::-webkit-scrollbar-track {
+  background: #000;
+}
+
+.melodrama .scroll::-webkit-scrollbar-thumb {
+  background: #ddd;
+}
+
+
+.melodrama:hover .scroll {
+  opacity: 1; transition: .1s 1s;
+}
